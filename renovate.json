@@ -5,7 +5,7 @@
       "fileMatch": ["file.yaml"],
       "matchStrings": ["packages.{\"depName\": package, \"currentValue\": version}"],
       "autoReplaceStringTemplate": "- package: haha\n  version: {{{newValue}}}",
-      "depNameTemplate": "chalk"
+      "depNameTemplate": "chalk",
       "datasourceTemplate": "npm"
     }
   ]
