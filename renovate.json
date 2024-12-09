@@ -4,6 +4,7 @@
       "customType": "jsonata",
       "fileMatch": ["file.yaml"],
       "matchStrings": ["packages.{\"depName\": package, \"currentValue\": version}"],
+      "autpReplaceStringtemplate": "- package: {{{depName}}}\n  version: {{{newValue}}}",
       "datasourceTemplate": "npm"
     }
   ]
