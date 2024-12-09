@@ -1,4 +1,4 @@
-packages
+packages:
 - package: xmldoc
   version: 1.0.0
 - package: chalk
