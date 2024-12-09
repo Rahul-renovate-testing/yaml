@@ -1,0 +1,10 @@
+{
+  "customManagers": [
+    {
+      "customType": "jsonata",
+      "fileMatch": ["file.yaml"],
+      "matchStrings": ["packages.{\"depName\": package, \"currentValue\": version}"],
+      "datasourceTemplate": "npm"
+    }
+  ]
+}
